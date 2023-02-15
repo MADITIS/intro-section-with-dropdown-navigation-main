@@ -19,7 +19,11 @@ body {
     background-color: var(--body-color);
     height: 100vh;
     /* overflow-x: hidden; */
-    overflow-x: hidden;
+    /* overflow-x: hidden;
+    overflow: h; */
+    /* overflow: hidden;
+     */
+     /* display: flex; */
 }
 
 a {
@@ -101,6 +105,7 @@ ul{
     width: 85%;
     max-width: 1440px;
     margin: 0 auto;
+    overflow: hidden;
     /* padding: 2rem; */
     /* padding-right: 3rem; */
     /* min-height: 60vh; */
@@ -207,9 +212,10 @@ div.client > img {
 }
 
 .side-bar {
-    display: none;
+    /* display: none; */
     /* opacity: 0; */
-    position: absolute;
+    position: fixed;
+    /* overflow: hidden; */
     background: rgb(248, 244, 244, 0.5);
     width: 50%;
     color: white;
@@ -296,6 +302,7 @@ div.client > img {
         display: block;
         opacity: 1;
         transform: translateX(-100%);
+        z-index: 10;
     }
 
     .close-menu {
@@ -305,7 +312,7 @@ div.client > img {
         left: 65%;
         /* width: 5rem; */
         height: 5rem;
-        z-index: 1;
+        /* z-index: 1; */
         /* display: flex;
         
         flex-direction: column;
