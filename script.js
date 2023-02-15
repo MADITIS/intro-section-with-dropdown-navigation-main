@@ -12,3 +12,4 @@ function addSideBar() {
     const sideMenu = document.querySelector(".side-bar")
     sideMenu.classList.toggle("show")
 }
+
