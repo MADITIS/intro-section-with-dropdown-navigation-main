@@ -1,6 +1,6 @@
 const menu = document.querySelector(".burger-menu")
 const closeMenu = document.querySelector(".close-menu")
-const dropMenu = document.querySelectorAll("drop-menu")
+const dropMenu = document.querySelectorAll(".drop-menu")
 const sideMenu = document.querySelectorAll(".side-menu")
 const listElements = document.querySelectorAll(".list")
 // console.log(menu)
