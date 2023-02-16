@@ -11,5 +11,7 @@ closeMenu.addEventListener("click", addSideBar)
 function addSideBar() {
     const sideMenu = document.querySelector(".side-bar")
     sideMenu.classList.toggle("show")
+    document.body.classList.toggle("show")
+    document.querySelector(".hero").classList.toggle("opacity-change")
 }
 
