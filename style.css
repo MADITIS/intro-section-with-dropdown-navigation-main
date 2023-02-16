@@ -244,8 +244,10 @@ div.client > img {
     background-color: rgb(238, 245, 240);
     width: max-content;
     border-radius: 8px;
+    color: black;
     display: none;
     position: absolute;
+    top:5rem;
     /* left: 5rem; */
 }
 
@@ -277,6 +279,16 @@ div.client > img {
 } */
     /* background-color: rgb(233, 233, 219); */
     /* border-radius: 50%; */
+
+.side-menu  {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+}
+.side-menu span {
+    margin-left: -.5rem;
+}
 
 @media screen and (max-width: 932px) {
     .container {
